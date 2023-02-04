@@ -40,4 +40,13 @@ h1{
     border-top style: dotted;
     border-bottom-style: dotted
 }
+body{
+    background-image: url(2023-02-03_21.37.49.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
 
