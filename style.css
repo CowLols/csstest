@@ -9,9 +9,16 @@ h1{
 }
 
 #p1{
-    color: tomato;
+    color: /tomato;
 
 }
+.odd{
+    color: blue;
+
+}
+.even{
+    color: red;
+}  
 
 
 
