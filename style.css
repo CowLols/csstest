@@ -35,10 +35,13 @@ p{
     border-width: 5px;
     border-color:gainsboro;
     border: radius 10px;
+    background-image: url(Glass.png);
+   
+    
 }
 h1{
     border-top style: dotted;
-    border-bottom-style: dotted
+    border-bottom-style:inset;
 }
 body{
     background-image: url(2023-02-03_21.37.49.png);
@@ -82,4 +85,15 @@ button{
 a{
     background: lightsteelblue;
     border: 2px solid;
+}
+img{
+    float: left;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border:1px solid ;
+    font-size: 40px;
+    text-align:center;
 }
