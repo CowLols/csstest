@@ -46,7 +46,40 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    margin: 0px;
+
+    padding: 10px;
 
 }
+#box1{
+    border: 5px thin;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border-color: lightseagreen;
+    border-style:
+    margin-top: 50px;
+    margin: auto
+    
+}
+#box2{
+    border: 5px;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border-style: ridge;
+    border-color: lightseagreen;
+    margin-top: 50px;
+    margin: auto;
+    border: 2px solid;
+}
+button{
+    background-color: cornflowerblue;
 
+}
+a{
+    background: lightsteelblue;
+    border: 2px solid;
+}
