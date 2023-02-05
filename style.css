@@ -118,3 +118,32 @@ img{
     bottom: 0px;
     
 }
+a:link{
+    color: cornflowerblue;
+
+}
+a:visited{
+    color: cadetblue;
+
+}
+a:hover{
+    color: darkcyan;
+
+}
+a:active{
+    color: red;
+
+}
+button:hover{
+    background-color: lightslategray;
+
+}
+button:active{
+    color: gray;
+
+}
+/*li:nth-child(1){
+    background-color: cornflowerblue;
+
+
+}*/
