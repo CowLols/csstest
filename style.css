@@ -119,15 +119,15 @@ img{
     
 }
 a:link{
-    color: cornflowerblue;
+    color: black;
 
 }
 a:visited{
-    color: cadetblue;
+    color: darkgray;
 
 }
 a:hover{
-    color: darkcyan;
+    color: gray;
 
 }
 a:active{
@@ -189,3 +189,36 @@ h1:hover{
     transform: skewx(45deg );
     transform: matrix(1, 1, 1, 1, 1);
 }
+#cube2{
+
+    width: 250px;
+    height: 250px;
+    font-size: 225px;
+    background: red;
+    text-align: center;
+    animation: boxslide;
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+
+}
+@keyframes boxslide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+/*#cube2:hover{
+    animation: 3s ease 0s infinite running boxslide
+
+}*/
+@keyframes boxslide{
+
+    100%{transform:rotatey(360deg)}
+}
+@keyframes boxslide{
+50%{opacity: 0;}
+
+}
+
+
