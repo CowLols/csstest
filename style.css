@@ -97,3 +97,24 @@ img{
     font-size: 40px;
     text-align:center;
 }
+#box3{
+    border: solid 1px; 
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    top: 100px;
+    left: 100px;
+    right: 100px;
+}
+#box3{
+    border: solid 1px; 
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    position:sticky ;
+    top: 0px;
+   
+    bottom: 0px;
+    
+}
